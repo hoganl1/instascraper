@@ -1,6 +1,8 @@
 import datetime
 from itertools import dropwhile, takewhile
 
-import instaloader
+from instaloader import InstaLoader
 
-print("hello, world")
+loader = InstaLoader()
+
+PROFILE = input("Enter the username of the profile you would like to scan: ")
